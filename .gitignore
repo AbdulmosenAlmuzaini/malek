@@ -1,0 +1,30 @@
+# Package lock files
+package-lock.json
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency directories
+node_modules/
+**/node_modules/
+
+# Build outputs
+frontend/dist/
+backend/dist/
+
+# Database and Uploads
+backend/database.db
+backend/database.db-journal
+backend/database.db-shm
+backend/database.db-wal
+backend/uploads/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
